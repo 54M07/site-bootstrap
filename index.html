@@ -1,0 +1,254 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra Destinos: Viagens e Turismo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Descubra Destinos</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold"><a class="nav-link" href="#sobre-o-destino"><i
+                                class="bi bi-globe me-2"></i>Sobre o Descubra Destino</a></li>
+                    <li class="nav-item fw-bold"><a class="nav-link" href="#roteiros"><i
+                                class="bi bi-compass me-2"></i>Roteiros</a></li>
+                    <li class="nav-item fw-bold"><a class="nav-link" href="#hospedagem"><i
+                                class="bi bi-house me-2"></i>Hospedagens</a></li>
+                    <li class="nav-item fw-bold"><a class="nav-link" href="#fale-conosco"><i
+                                class="bi bi-chat-left-text me-2"></i>Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <!-- Sobre o Destino -->
+        <section id="sobre-o-destino">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="/imagens/slide/slide1.jpeg" alt="Imagem 1" class="w-100 max-height-carousel">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/imagens/slide/slide2.jpeg" alt="Imagem 2" class="w-100 max-height-carousel">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/imagens/slide/slide3.jpeg" alt="Imagem 3" class="w-100 max-height-carousel">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button data-bs-target="#carousel" data-bs-slide-to="0" type="button" class="active"></button>
+                    <button data-bs-target="#carousel" data-bs-slide-to="1" type="button"></button>
+                    <button data-bs-target="#carousel" data-bs-slide-to="2" type="button"></button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="section-title mt-4">Descubra Novos Destinos</h2>
+                        <p class="fs-5">Explore lugares incríveis, mergulhe em culturas vibrantes e crie memórias
+                            inesquecíveis. Nossa equipe de especialistas em viagens está pronta para guiá-lo através de
+                            experiências únicas.</p>
+                        <a href="#roteiros" class="btn btn-primary mt-3">Ver Roteiros</a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <img src="/imagens/mapa-mundi.jpeg" alt="Destino de viagem" class="img-fluid mt-4">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Roteiros -->
+        <section id="roteiros" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="section-title">Roteiros Exclusivos</h2>
+                        <p class="fs-5">Explore os melhores itinerários para cada destino. De aventuras emocionantes a
+                            relaxantes escapadas, temos o roteiro perfeito para você.</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card mt-4">
+                            <img src="/imagens/arvore-rio.jpeg" alt="Roteiro 1" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Aventura na Natureza</h5>
+                                <p class="card-text">Trilhas, cachoeiras e paisagens deslumbrantes esperam por você
+                                    nesta emocionante aventura ao ar livre.</p>
+                                <a href="#" class="btn btn-outline-primary">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mt-4">
+                            <img src="imagens/roteiro2.jpeg" alt="Roteiro 2" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Cultura e História</h5>
+                                <p class="card-text">Explore os marcos históricos e mergulhe na rica cultura local neste
+                                    roteiro enriquecedor.</p>
+                                <a href="#" class="btn btn-outline-primary">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mt-4">
+                            <img src="imagens/roteiro3.jpeg" alt="Roteiro 3" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Praias Paradisíacas</h5>
+                                <p class="card-text">Relaxe nas praias de areia branca e águas cristalinas em um roteiro
+                                    de puro relaxamento.</p>
+                                <a href="#" class="btn btn-outline-primary">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hospedagem -->
+        <section id="hospedagem" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="section-title">Hospedagem Confortável</h2>
+                        <p class="fs-5">Escolha entre uma variedade de opções de hospedagem que atendam às suas
+                            necessidades. De hotéis boutique a acomodações de luxo, temos o lugar perfeito para você se
+                            sentir em casa.</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="imagens/hotel1.jpeg" alt="Hotel 1" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Hotel à Beira-Mar</h5>
+                                <p class="card-text">Refúgio à Beira-Mar
+                                    Desfrute de vistas panorâmicas do horizonte e serviços de excelência neste refúgio à
+                                    beira-mar.</p>
+                                <a href="#" class="btn btn-outline-primary">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="imagens/hotel2.jpeg" alt="Hotel 2" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Retiro na Montanha</h5>
+                                <p class="card-text">Relaxe em um ambiente tranquilo cercado pela natureza neste
+                                    aconchegante retiro na montanha.</p>
+                                <a href="#" class="btn btn-outline-primary">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="imagens/hotel3.jpeg" alt="Hotel 3" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Resort de Luxo</h5>
+                                <p class="card-text">Experimente o máximo em conforto e sofisticação em um resort de
+                                    luxo com todas as comodidades que você deseja.</p>
+                                <a href="#" class="btn btn-outline-primary">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fale Conosco -->
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="section-title">Fale Conosco</h2>
+                        <p class="fs-5">Pronto para embarcar em sua próxima aventura? Entre em contato conosco para mais
+                            informações, dúvidas ou reservas.</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6 offset-md-3">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel" class="form-label">Telefone</label>
+                                <input type="text" class="form-control" id="telefone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Mensagem</label>
+                                <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Rodapé -->
+    <footer class="footer pt-4 pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Sobre Nós</h5>
+                    <p>Descubra Destinos é uma agência de viagens especializada em criar experiências memoráveis para os
+                        viajantes.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Links Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#sobre-o-destino" class="text-light">Sobre o Destino</a></li>
+                        <li><a href="#roteiros" class="text-light">Roteiros</a></li>
+                        <li><a href="#hospedagem" class="text-light">Hospedagem</a></li>
+                        <li><a href="#fale-conosco" class="text-light">Fale Conosco</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contato</h5>
+                    <address>
+                        <p><i class="bi bi-geo-alt-fill me-2"></i>123 Rua das Viagens, Cidade Viagem</p>
+                        <p><i class="bi bi-envelope-fill me-2"></i>contato@descubradestinos.com</p>
+                        <p><i class="bi bi-telephone-fill me-2"></i>(12) 3456-7890</p>
+                    </address>
+                </div>
+            </div>
+            <div class="container text-center py-3">
+                <p>&copy; 2023 Descubra Destinos. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/index.js"></script>
+
+</body>
+
+</html>

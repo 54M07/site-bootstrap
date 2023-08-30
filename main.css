@@ -1,0 +1,56 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #028090;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #0c575c;
+    color: #ecf0f1;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active:hover {
+    color: #ecf0f1;
+}
+
+
+.nav-link:hover {
+    color: #1a5e63;
+}
+
+.max-height-carousel {
+    max-height: 1200px;
+}
+
+.card-body a,
+.btn {
+    background-color: #2e7e96;
+    color: #ecf0f1;
+    border-color: #0c575c;
+}
+
+.card-body a:hover,
+.btn:hover {
+    color: #ecf0f1;
+    background-color: #0c575c;
+    border-color: #0c575c;
+
+}
+
+#hospedagem, #sobre-o-destino {
+    background-color: #f3d9ae;
+}
+
+#fale-conosco, #roteiros {
+    background-color: #3da8b4;
+}
+
+.footer {
+    background-color: #028090;
+    color: #ecf0f1;
+}
