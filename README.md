@@ -29,5 +29,4 @@ O site "Descubra Destinos" oferece as seguintes funcionalidades:
 
 O projeto "Descubra Destinos" está hospedado na plataforma Vercel, o que permite visualizá-lo online diretamente no seu navegador.
 
-Acesse o seguinte link para ver o projeto: [Descubra Destinos](https://nome-do-seu-projeto.vercel.app/](https://landingpage-bootstrap-theta.vercel.app/)
-
+Acesse o seguinte link para ver o projeto: [Descubra Destinos](https://landingpage-bootstrap-theta.vercel.app/)]
