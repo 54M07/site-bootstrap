@@ -1,5 +1,8 @@
 * {
     font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -24,7 +27,7 @@
 }
 
 .max-height-carousel {
-    max-height: 1200px;
+    max-height: 600px;
 }
 
 .card-body a,
